@@ -1,0 +1,18 @@
+{
+  "branch": "main",
+  "depends_recipe": "",
+  "description_control": "VuPLus bluetooth plugin",
+  "description_recipe": "VuPLus bluetooth plugin",
+  "history_source_dir": "VuBluetoothSetup",
+  "internal_package_name": "enigma2-plugin-systemplugins-bluetoothsetup",
+  "module_dir_name": "VuBluetoothSetup",
+  "output_subdir": "VuBluetoothSetup",
+  "package_name": "enigma2-plugin-systemplugins-bluetoothsetup-vu-bluetooth-setup",
+  "plugin_src_rel": "VuBluetoothSetup",
+  "python_package": "VuBluetoothSetup",
+  "rdepends_recipe": "",
+  "replaces": "",
+  "repo_name": "VuBluetoothSetup",
+  "rrecommends": "",
+  "rreplaces": ""
+}
