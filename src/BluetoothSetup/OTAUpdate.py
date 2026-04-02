@@ -19,12 +19,12 @@ from .bt_task import BluetoothTask
 
 OTA_ERROR_SERVICE_DISCOVERY = 0
 OTA_BATTERY_LEVEL = 1
-#OTA_APP_VERSION = 2
+# OTA_APP_VERSION = 2
 OTA_PATCH_VERSION = 3
 OTA_ERROR_READ_BATTERY_LEVEL = 4
 OTA_ERROR_READ_APP_VERSION = 5
 OTA_ERROR_READ_PATCH_VERSION = 6
-#OTA_FILE_APP_VERSION = 7
+# OTA_FILE_APP_VERSION = 7
 OTA_SET_OTA_MODE = 8
 OTA_ERROR_SET_TO_OTA_MODE = 9
 OTA_SCAN_OTA_DEVICE = 10
@@ -165,8 +165,8 @@ class VuRcuOtaUpdate(Screen, HelpableScreen, BluetoothTask):
 
 	def onCloseCB(self):
 		self.vubt.OTADeInit()
-		#if self.audio_connected:
-		#	self.vubt.requestConnect(self.audio_connected['bd_addr'])
+		# if self.audio_connected:
+		# self.vubt.requestConnect(self.audio_connected['bd_addr'])
 
 		self.appendOTAEventCallback(False)
 		self.appendEventCallback(False)

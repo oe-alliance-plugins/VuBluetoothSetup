@@ -38,7 +38,7 @@ class VoiceEventHandler:
 	def __init__(self):
 		self.voiceHandlers = []
 		self.textHandlers = []
-		#self.voiceHandlers.append(self.startPlayVoiceTimer)
+		# self.voiceHandlers.append(self.startPlayVoiceTimer)
 
 		self.showVoiceMsgTimer = eTimer()
 		self.showVoiceMsgTimer.callback.append(self.showVoiceMsg)
