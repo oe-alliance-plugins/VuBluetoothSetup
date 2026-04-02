@@ -1,6 +1,6 @@
 
 
-# <p align="center">VuBluetoothSetup Plugin for Enigma2 (E²) ![GitHub repo size](https://img.shields.io/github/repo-size/oe-alliance-plugins/VuBluetoothSetup.svg)</p>
+# <p align="center">BluetoothSetup Plugin for Enigma2 (E²) ![GitHub repo size](https://img.shields.io/github/repo-size/oe-alliance-plugins/VuBluetoothSetup.svg)</p>
 
 **VuPLus bluetooth plugin**
 
@@ -45,7 +45,7 @@ This plugin is released under GPLv3. See [LICENSE](https://www.gnu.org/licenses/
 
 ### 🤝 Contributing & Contact
 
-VuBluetoothSetup is created by users for users and we welcome every contribution. There are no highly paid developers. There are only users who have seen a problem and done their best to fix it. This means VuBluetoothSetup will always need the contributions of users like you. How can you get involved?
+BluetoothSetup is created by users for users and we welcome every contribution. There are no highly paid developers. There are only users who have seen a problem and done their best to fix it. This means VuBluetoothSetup will always need the contributions of users like you. How can you get involved?
 
 For questions or feedback, feel free and please open an issue or contribute with a Pull Request!
 
