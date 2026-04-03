@@ -1,7 +1,7 @@
 from setuptools import setup
 import setup_translate
 
-pkg = 'SystemPlugins.VuBluetoothSetup'
+pkg = 'SystemPlugins.BluetoothSetup'
 setup(name='enigma2-plugin-systemplugins-bluetoothsetup',
        version='3.0',
        description='VuPLus bluetooth plugin',

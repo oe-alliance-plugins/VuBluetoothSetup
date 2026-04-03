@@ -41,9 +41,9 @@ class BluetoothDiscovery(BluetoothTask):
 		self.scanAbortTimer = eTimer()
 		self.scanAbortTimer.callback.append(self.addTaskAbortScan)
 
-		#self.pairingTime = 15
-		#self.pairingCancelTimer = eTimer()
-		#self.pairingCancelTimer.callback.append(self.pairingCancelTimerCB)
+		# self.pairingTime = 15
+		# self.pairingCancelTimer = eTimer()
+		# self.pairingCancelTimer.callback.append(self.pairingCancelTimerCB)
 
 		self.eventTimer = eTimer()
 		self.eventTimer.callback.append(self.handleEvents)
@@ -75,7 +75,7 @@ class BluetoothDiscovery(BluetoothTask):
 	def deInit(self):
 		self.scanningTimer.stop()
 		self.scanAbortTimer.stop()
-		#self.pairingCancelTimer.stop()
+		# self.pairingCancelTimer.stop()
 		self.eventTimer.stop()
 
 		self.appendEventCallback(False)
@@ -166,7 +166,7 @@ class BluetoothDiscovery(BluetoothTask):
 
 		elif self.vubt.requestPairing(mac):
 			self.updateDescription(_("Pairing %s") % name)
-			#self.pairingCancelTimer.start(self.pairingTime * 1000, True)
+			# self.pairingCancelTimer.start(self.pairingTime * 1000, True)
 			ret = True
 		else:
 			self.updateDescription(_("Pairing %s failed!!") % name)
@@ -205,7 +205,7 @@ class BluetoothDiscovery(BluetoothTask):
 		BluetoothTask.removeTask(self, BluetoothTask.TASK_START_SCAN)
 		if self.isScanning():
 			self.abortScan()
-			#bluetoothTask.addTask(self, BluetoothTask.TASK_CALL_FUNC, self.abortScan, None, None, None)
+			# bluetoothTask.addTask(self, BluetoothTask.TASK_CALL_FUNC, self.abortScan, None, None, None)
 
 	def addTaskPairing(self, mac, profile, name):
 		if self.findTask(BluetoothTask.TASK_EXIT) or self.findTask(BluetoothTask.TASK_START_PAIRING):
@@ -227,7 +227,7 @@ class BluetoothDiscovery(BluetoothTask):
 		BluetoothTask.removeTask(self, BluetoothTask.TASK_START_PAIRING)
 		if self.isPairing():
 			self.cancelPairing(args)
-			#BluetoothTask.addTask(self, BluetoothTask.TASK_CALL_FUNC, self.cancelPairing, mac, args, None)
+			# BluetoothTask.addTask(self, BluetoothTask.TASK_CALL_FUNC, self.cancelPairing, mac, args, None)
 
 	def addTaskDisconnect(self, mac, profile, name):
 		if self.findTask(BluetoothTask.TASK_EXIT) or self.findTask(BluetoothTask.TASK_START_PAIRING):
