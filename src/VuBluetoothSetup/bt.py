@@ -225,7 +225,7 @@ class BTVolumeControl:
 			try:
 				vol = config.audio.volume.value
 				self.setVolume(vol)
-			except:
+			except Exception:
 				self.initVolumeTimer.start(100, True)
 
 	def setVolume(self, vol):

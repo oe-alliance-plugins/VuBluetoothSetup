@@ -39,7 +39,7 @@ def _swig_getattr(self, class_type, name):
 def _swig_repr(self):
     try:
         strthis = "proxy of " + self.this.__repr__()
-    except:
+    except Exception:
         strthis = ""
     return "<%s.%s; %s >" % (self.__class__.__module__, self.__class__.__name__, strthis,)
 
@@ -64,7 +64,7 @@ class Vu_PyBluetooth(_object):
         this = _vubt.new_Vu_PyBluetooth()
         try:
             self.this.append(this)
-        except:
+        except Exception:
             self.this = this
     __swig_destroy__ = _vubt.delete_Vu_PyBluetooth
     __del__ = lambda self: None
