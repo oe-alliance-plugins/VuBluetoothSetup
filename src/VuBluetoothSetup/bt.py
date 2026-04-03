@@ -68,7 +68,7 @@ class VoiceEventHandler:
 			if callback is not None:
 				callback(flag)
 				return
-		except Exception as e:
+		except Exception:
 			pass
 
 		if flag == "empty":
@@ -128,7 +128,7 @@ class VoiceEventHandler:
 		for callback in self.findVoiceCallbackByName(name):
 			try:
 				callback(bt_types.BT_VOICE_PATH)
-			except:
+			except Exception:
 				pass
 
 	def updateCallbackNameList(self):
@@ -334,7 +334,7 @@ class BTAutoAudioConnect:
 			data = enable and "on" or "off"
 			fd.write(data)
 			fd.close()
-		except:
+		except OSError:
 			print("[BT] set %s failed!" % BT_AUDIO_ONOFF_PROC)
 
 	def setBTAudioDelay(self, updateNow=True):
@@ -356,7 +356,7 @@ class BTAutoAudioConnect:
 				fd = open(BT_AUDIO_DELAY_PROC, 'w')
 				fd.write(data)
 				fd.close()
-			except:
+			except OSError:
 				print("[BT] set %s failed!" % BT_AUDIO_DELAY_PROC)
 
 	def isAudioDeviceConnected(self):
@@ -473,7 +473,7 @@ class BTOTAProcess:
 			try:
 				if len(self.bd_addr) >= 12:
 					first_octet = int(self.bd_addr[:2])
-			except:
+			except Exception:
 				pass
 			if first_octet == 0 or self.rcuAppVersion == 17:
 				return
