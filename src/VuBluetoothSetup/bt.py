@@ -106,7 +106,7 @@ class VoiceEventHandler:
 			self.voiceMsg = None
 
 	def handleVoiceEvent(self, value):
-		voiceCallbackName = config.plugins.bluetoothsetup.voiceCallbackName.value
+		# voiceCallbackName = config.plugins.bluetoothsetup.voiceCallbackName.value
 		if value and (self.voiceMsg is None):
 			self.showVoiceMsgTimer.start(True, 100)
 
