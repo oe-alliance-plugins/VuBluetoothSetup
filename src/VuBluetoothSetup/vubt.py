@@ -55,9 +55,9 @@ except AttributeError:
 
 class Vu_PyBluetooth(_object):
     __swig_setmethods__ = {}
-    __setattr__ = lambda self, name, value: _swig_setattr(self, Vu_PyBluetooth, name, value)
+    __setattr__ = lambda self, name, value: _swig_setattr(self, Vu_PyBluetooth, name, value)  # noqa: E731
     __swig_getmethods__ = {}
-    __getattr__ = lambda self, name: _swig_getattr(self, Vu_PyBluetooth, name)
+    __getattr__ = lambda self, name: _swig_getattr(self, Vu_PyBluetooth, name)  # noqa: E731
     __repr__ = _swig_repr
 
     def __init__(self):
@@ -67,7 +67,7 @@ class Vu_PyBluetooth(_object):
         except Exception:
             self.this = this
     __swig_destroy__ = _vubt.delete_Vu_PyBluetooth
-    __del__ = lambda self: None
+    __del__ = lambda self: None  # noqa: E731
     def enable(self): return _vubt.Vu_PyBluetooth_enable(self)
     def disable(self): return _vubt.Vu_PyBluetooth_disable(self)
     def checkBTUSB(self): return _vubt.Vu_PyBluetooth_checkBTUSB(self)
