@@ -65,7 +65,7 @@ msgid ""
 "1. Move to Bluetooth Setup Options.\n"
 "(press MENU key in BluetoothSetup)\n"
 msgstr ""
-"1. Przejdź do opcji konfiguracji Bluetooth.\n"
+"1. Przejdź do opcji ustawień Bluetooth.\n"
 "(naciśnij przycisk MENU w BluetoothSetup)\n"
 
 #: ../bt.py:547
@@ -104,15 +104,15 @@ msgstr "Skanowanie Bluetooth"
 
 #: ../bt_setup.py:237 ../plugin.py:52 ../plugin.py:66
 msgid "Bluetooth Setup"
-msgstr "Konfiguracja Bluetooth"
+msgstr "Ustawienia Bluetooth"
 
 #: ../bt_config.py:41
 msgid "Bluetooth Setup Options"
-msgstr "Opcje konfiguracji Bluetooth"
+msgstr "Opcje ustawień Bluetooth"
 
 #: ../plugin.py:65
 msgid "BluetoothSetup"
-msgstr "Konfiguracja Bluetooth"
+msgstr "Ustawienia Bluetooth"
 
 #: ../bt_scan.py:57
 #, python-format
@@ -203,7 +203,7 @@ msgstr "Wyjście"
 
 #: ../bt_setup.py:207
 msgid "Exit bluetooth setup"
-msgstr "Wyjdź z konfiguracji Bluetooth"
+msgstr "Wyjdź z ustawień"
 
 #: ../bt.py:545
 msgid ""
@@ -332,7 +332,7 @@ msgstr "Skanuj"
 
 #: ../bt_setup.py:577
 msgid "Scan and setup Vu+ Bluetooth RCU"
-msgstr "Zeskanuj i skonfiguruj Vu+ Bluetooth RCU"
+msgstr "Zeskanuj i ustaw Vu+ Bluetooth RCU"
 
 #: ../bt_scan.py:151
 msgid "Scan failed! try again."
