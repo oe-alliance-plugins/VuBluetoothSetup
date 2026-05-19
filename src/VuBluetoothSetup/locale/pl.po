@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-03 14:49+0100\n"
+"POT-Creation-Date: 2026-04-08 10:12+0200\n"
 "PO-Revision-Date: 2025-01-12 12:20+0000\n"
 "Last-Translator: pololoko111\n"
 "Language-Team: \n"
@@ -18,6 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.5\n"
 
+#: ../bt_setup.py:142
 msgid ""
 "\n"
 "Please repair Vu+ RCU. (by AUDIO+MENU)"
@@ -25,33 +26,41 @@ msgstr ""
 "\n"
 "Proszę naprawić Vu+ RCU. (przez AUDIO+MENU)"
 
+#: ../bt_scan.py:481
 msgid " "
 msgstr " "
 
+#: ../OTAUpdate.py:201
 #, python-format
 msgid "%d event"
 msgstr "%d zdarzenie"
 
+#: ../OTAUpdate.py:199
 #, python-format
 msgid "%s"
 msgstr "%s"
 
+#: ../bt_scan.py:56
 #, python-format
 msgid "%s Pairing fail"
 msgstr "%s Nieudane parowanie"
 
+#: ../bt.py:729 ../bt_scan.py:55 ../bt_setup.py:56
 #, python-format
 msgid "%s is connected."
 msgstr "%s jest połączony."
 
+#: ../OTAUpdate.py:282 ../bt.py:731 ../bt_scan.py:59 ../bt_setup.py:58
 #, python-format
 msgid "%s is disconnected."
 msgstr "%s jest rozłączony."
 
+#: ../bt_scan.py:506 ../bt_scan.py:583
 #, python-format
 msgid "%s is not found."
 msgstr "%s nie został znaleziony."
 
+#: ../bt.py:546
 msgid ""
 "1. Move to Bluetooth Setup Options.\n"
 "(press MENU key in BluetoothSetup)\n"
@@ -59,10 +68,11 @@ msgstr ""
 "1. Przejdź do opcji konfiguracji Bluetooth.\n"
 "(naciśnij przycisk MENU w BluetoothSetup)\n"
 
+#: ../bt.py:547
 msgid "2. Change \"Skip firmware update of VUPLUS-BLE-RCU\" option to \"no\"\n"
-msgstr ""
-"2. Zmień opcję „Pomiń aktualizację oprogramowania układowego VUPLUS-BLE-RCU” na „Nie”\n"
+msgstr "2. Zmień opcję „Pomiń aktualizację oprogramowania układowego VUPLUS-BLE-RCU” na „Nie”\n"
 
+#: ../bt.py:548
 msgid ""
 "3. Reconnect the VUPLUS-BLE-RCU.\n"
 "\n"
@@ -70,51 +80,63 @@ msgstr ""
 "3. Podłącz ponownie VUPLUS-BLE-RCU.\n"
 "\n"
 
+#: ../bt_setup.py:60
 msgid "BT dongle has been inserted."
 msgstr "Podłączono klucz sprzętowy BT."
 
+#: ../bt_setup.py:62
 msgid "BT dongle has been removed."
 msgstr "Klucz sprzętowy BT został usunięty."
 
+#: ../bt.py:435
 #, python-format
 msgid "Battery is low. Suggest to prepare replacement batteries for using properly %s."
-msgstr ""
-"Bateria jest słaba. Zalecamy przygotowanie baterii zamiennych do prawidłowego użytkowania "
-"%s."
+msgstr "Bateria jest słaba. Zalecamy przygotowanie baterii zamiennych do prawidłowego użytkowania %s."
 
+#: ../OTAUpdate.py:123
 #, python-format
 msgid "Battery level for OTA : %s"
 msgstr "Poziom naładowania baterii dla OTA: %s"
 
+#: ../bt_scan.py:349
 msgid "Bluetooth Scan"
 msgstr "Skanowanie Bluetooth"
 
+#: ../bt_setup.py:237 ../plugin.py:52 ../plugin.py:66
 msgid "Bluetooth Setup"
 msgstr "Konfiguracja Bluetooth"
 
+#: ../bt_config.py:41
 msgid "Bluetooth Setup Options"
 msgstr "Opcje konfiguracji Bluetooth"
 
+#: ../plugin.py:65
 msgid "BluetoothSetup"
 msgstr "Konfiguracja Bluetooth"
 
+#: ../bt_scan.py:57
 #, python-format
 msgid "Can't communicate with %s"
 msgstr "Nie można nawiązać komunikacji z %s"
 
+#: ../bt_setup.py:140
 #, python-format
 msgid "Can't communicate with %s."
 msgstr "Nie można nawiązać komunikacji z %s."
 
+#: ../bt_config.py:32
 msgid "Cancel"
 msgstr "Anuluj"
 
+#: ../bt_scan.py:413 ../bt_setup.py:481
 msgid "Connect"
 msgstr "Połącz"
 
+#: ../bt_setup.py:206 ../bt_setup.py:209
 msgid "Connect/Disconnect selected device"
 msgstr "Połącz/Rozłącz wybrane urządzenie"
 
+#: ../bt_setup.py:76
 #, python-format
 msgid ""
 "Connection failed.\n"
@@ -123,10 +145,12 @@ msgstr ""
 "Połączenie nieudane.\n"
 "Podłączono inne urządzenie audio. (%s)"
 
+#: ../OTAUpdate.py:124
 #, python-format
 msgid "Current FW version : %d"
 msgstr "Aktualna wersja oprogramowania sprzętowego: %d"
 
+#: ../bt.py:527
 #, python-format
 msgid ""
 "Current FW version : %d\n"
@@ -135,56 +159,70 @@ msgstr ""
 "Aktualna wersja oprogramowania sprzętowego: %d\n"
 "Nowa wersja oprogramowania sprzętowego: %d"
 
+#: ../bt_setup.py:369
 msgid "Device is disabling..."
 msgstr "Urządzenie jest wyłączane..."
 
+#: ../bt_setup.py:498
 msgid "Device is enabled."
 msgstr "Urządzenie jest włączone."
 
+#: ../bt_setup.py:371
 msgid "Device is enabling..."
 msgstr "Urządzenie włącza się..."
 
+#: ../bt_setup.py:476
 msgid "Disable"
 msgstr "Wyłącz"
 
+#: ../bt_setup.py:479
 msgid "Disconnect"
 msgstr "Rozłącz"
 
+#: ../bt_scan.py:183
 #, python-format
 msgid "Disconnect %s failed!!"
 msgstr "Rozłączenie %s nie powiodło się!!"
 
+#: ../bt_scan.py:180
 #, python-format
 msgid "Disconnecting %s"
 msgstr "Rozłączanie %s"
 
+#: ../bt_setup.py:197 ../bt_setup.py:490
 msgid "Enable"
 msgstr "Włącz"
 
+#: ../bt_setup.py:208
 msgid "Enable/Disable bluetooth"
 msgstr "Włącz/Wyłącz Bluetooth"
 
+#: ../bt_scan.py:325
 msgid "Exit"
 msgstr "Wyjście"
 
+#: ../bt_setup.py:207
 msgid "Exit bluetooth setup"
 msgstr "Wyjdź z konfiguracji Bluetooth"
 
+#: ../bt.py:545
 msgid ""
 "If you want to update this firmware version, follow belows.\n"
 "\n"
 msgstr ""
-"Jeśli chcesz uaktualnić tę wersję oprogramowania sprzętowego, wykonaj poniższe "
-"czynności.\n"
+"Jeśli chcesz uaktualnić tę wersję oprogramowania sprzętowego, wykonaj poniższe czynności.\n"
 "\n"
 
+#: ../bt_setup.py:202
 msgid "MENU"
 msgstr "MENU"
 
+#: ../OTAUpdate.py:125
 #, python-format
 msgid "New FW version : %d"
 msgstr "Nowa wersja oprogramowania sprzętowego: %d"
 
+#: ../bt.py:525
 msgid ""
 "New firmware detected for VUPLUS-BLE-RCU.\n"
 "\n"
@@ -192,9 +230,11 @@ msgstr ""
 "Wykryto nowe oprogramowanie układowe dla VUPLUS-BLE-RCU.\n"
 "\n"
 
+#: ../bt_scan.py:259
 msgid "No nearby bluetooth devices were found."
 msgstr "Nie znaleziono żadnych urządzeń Bluetooth w pobliżu."
 
+#: ../OTAUpdate.py:162
 msgid ""
 "Not enough battery level for OTA update.\n"
 "Press exit and change battery of VUPLUS-BLE-RCU."
@@ -202,6 +242,7 @@ msgstr ""
 "Poziom naładowania baterii jest niewystarczający do przeprowadzenia aktualizacji OTA.\n"
 "Naciśnij przycisk wyjścia i wymień baterię VUPLUS-BLE-RCU."
 
+#: ../OTAUpdate.py:194
 #, python-format
 msgid ""
 "OTA Failed.\n"
@@ -210,17 +251,21 @@ msgstr ""
 "OTA nie powiodło się.\n"
 "%s jest rozłączony."
 
+#: ../bt_config.py:33
 msgid "Ok"
 msgstr "Ok"
 
+#: ../bt_scan.py:168 ../bt_scan.py:576
 #, python-format
 msgid "Pairing %s"
 msgstr "Parowanie %s"
 
+#: ../bt_scan.py:172
 #, python-format
 msgid "Pairing %s failed!!"
 msgstr "Parowanie %s nie powiodło się!!"
 
+#: ../bt_scan.py:165
 #, python-format
 msgid ""
 "Pairing Failed.\n"
@@ -229,9 +274,11 @@ msgstr ""
 "Parowanie nie powiodło się.\n"
 "Podłączono inne urządzenie audio. (%s)"
 
+#: ../bt.py:205
 msgid "Playing Voice data..."
 msgstr "Odtwarzanie danych głosowych..."
 
+#: ../bt_setup.py:520
 msgid ""
 "Please enable bluetooth \n"
 "before pairing the VUPLUS-BLE-RCU."
@@ -239,9 +286,11 @@ msgstr ""
 "Proszę włączyć Bluetooth \n"
 "przed sparowaniem VUPLUS-BLE-RCU."
 
+#: ../bt_setup.py:582
 msgid "Please select scan mode."
 msgstr "Proszę wybrać tryb skanowania."
 
+#: ../bt_scan.py:514
 msgid ""
 "Press and hold the buttons <MENU+AUDIO>\n"
 " for five seconds to start."
@@ -249,36 +298,47 @@ msgstr ""
 "Naciśnij i przytrzymaj przyciski <MENU+AUDIO>\n"
 " na pięć sekund, aby rozpocząć."
 
+#: ../bt_scan.py:257
 msgid "Press green key to connect device."
 msgstr "Naciśnij zielony przycisk, aby podłączyć urządzenie."
 
+#: ../bt_setup.py:500
 msgid "Press red key to enable bluetooth."
 msgstr "Naciśnij czerwony przycisk, aby włączyć Bluetooth."
 
+#: ../bt.py:78
 msgid "Put your voice close to the remote control..."
 msgstr "Umieść swój głos blisko pilota..."
 
+#: ../bt.py:528
 msgid "Remind Me later"
 msgstr "Przypomnij mi później"
 
+#: ../bt_setup.py:482
 msgid "Remove"
 msgstr "Usuń"
 
+#: ../bt_setup.py:210
 msgid "Remove selected device"
 msgstr "Usuń wybrane urządzenie"
 
+#: ../bt_setup.py:533
 msgid "Removing VUPLUS-BLE-RCU..."
 msgstr "Usuwanie VUPLUS-BLE-RCU..."
 
+#: ../bt_setup.py:200 ../bt_setup.py:487
 msgid "Scan"
 msgstr "Skanuj"
 
+#: ../bt_setup.py:577
 msgid "Scan and setup Vu+ Bluetooth RCU"
 msgstr "Zeskanuj i skonfiguruj Vu+ Bluetooth RCU"
 
+#: ../bt_scan.py:151
 msgid "Scan failed! try again."
 msgstr "Skanowanie nie powiodło się! Spróbuj ponownie."
 
+#: ../bt_scan.py:534
 msgid ""
 "Scan failed. Please try again VUPLUS BLE RCU setup.\n"
 "(AUDIO+MENU buttons)"
@@ -286,108 +346,131 @@ msgstr ""
 "Skanowanie nie powiodło się. Spróbuj ponownie skonfigurować VUPLUS BLE RCU.\n"
 "(Przyciski AUDIO+MENU)"
 
+#: ../bt_setup.py:578
 msgid "Scan other bluetooth 3.0 device (A2DP, HID)"
 msgstr "Przeskanuj inne urządzenie Bluetooth 3.0 (A2DP, HID)"
 
+#: ../bt_scan.py:496
 msgid "Scanning VUPLUS BLE RCU"
 msgstr "Skanowanie VUPLUS BLE RCU"
 
+#: ../bt_scan.py:34
 msgid "Scanning bluetooth devices"
 msgstr "Skanowanie urządzeń Bluetooth"
 
+#: ../bt_config.py:45
 msgid "Set bluetooth audio delay (msec)"
 msgstr "Ustaw opóźnienie dźwięku Bluetooth (ms)"
 
+#: ../bt_setup.py:212
 msgid "Setup bluetooth options"
 msgstr "Skonfiguruj opcje Bluetooth"
 
+#: ../bt_config.py:48
 msgid "Show battery low message on infobar notification"
 msgstr "Pokaż komunikat o niskim poziomie naładowania baterii na pasku info"
 
+#: ../bt_config.py:46
 msgid "Show state message on infobar notification"
 msgstr "Pokaż komunikat o stanie w powiadomieniu na pasku info"
 
+#: ../bt_config.py:54
 #, python-format
 msgid "Skip firmware update of VUPLUS-BLE-RCU (version : %d)"
 msgstr "Pomiń aktualizację oprogramowania układowego VUPLUS-BLE-RCU (wersja: %d)"
 
+#: ../bt.py:528
 msgid "Skip this version"
 msgstr "Pomiń tę wersję"
 
+#: ../bt_setup.py:211
 msgid "Start Scan / Setup VUPLUS BLE RCU"
 msgstr "Rozpocznij Skanowanie / Konfigurację VUPLUS BLE RCU"
 
+#: ../bt_scan.py:404
 msgid "Start scan"
 msgstr "Rozpocznij skanowanie"
 
+#: ../OTAUpdate.py:114 ../OTAUpdate.py:246 ../bt_scan.py:341 ../bt_setup.py:219
 msgid "Starting..."
 msgstr "Rozpoczynam..."
 
+#: ../bt_scan.py:407
 msgid "Stop scan"
 msgstr "Zatrzymaj skanowanie"
 
-msgid ""
-"The BT dongle has been removed. It takes 10 seconds from when the BT dongle is removed "
-"until the remote control operates in IR mode."
-msgstr ""
-"Usunięto klucz sprzętowy BT. Od momentu usunięcia klucza sprzętowego BT do momentu, w "
-"którym pilot zacznie działać w podczerwieni, mija 10 sekund."
+#: ../bt.py:624
+msgid "The BT dongle has been removed. It takes 10 seconds from when the BT dongle is removed until the remote control operates in IR mode."
+msgstr "Usunięto klucz sprzętowy BT. Od momentu usunięcia klucza sprzętowego BT do momentu, w którym pilot zacznie działać w podczerwieni, mija 10 sekund."
 
+#: ../bt.py:75
 msgid "There is no voice input."
 msgstr "Brak możliwości wprowadzania głosowego."
 
+#: ../bt_config.py:47
 msgid "Try connect to last audio device on start enable"
 msgstr "Spróbuj połączyć się z ostatnim urządzeniem audio przy włączaniu"
 
+#: ../bt_scan.py:133
 #, python-format
 msgid "Type %s on %s to connect, then press Enter or Return."
 msgstr "Wpisz %s na %s, aby się połączyć, a następnie naciśnij Enter lub Return."
 
+#: ../OTAUpdate.py:187
 #, python-format
 msgid "Updateing %d %%"
 msgstr "Aktualizowanie %d %%"
 
+#: ../bt.py:528
 msgid "Upgrade now"
 msgstr "Zaktualizuj teraz"
 
+#: ../bt.py:537
 msgid "VUPLUS-BLE-RCU is disconnected. Please connect and select again."
 msgstr "VUPLUS-BLE-RCU jest odłączony. Proszę połączyć się i wybrać ponownie."
 
+#: ../bt_config.py:50
 msgid "Voice event handler"
 msgstr "Obsługa zdarzeń głosowych"
 
+#: ../bt_scan.py:510
 msgid "Vu+ Bluetooth RCU Setup"
 msgstr "Konfiguracja pilota Vu+ Bluetooth"
 
+#: ../bt.py:526
 msgid ""
-"While the update is progress, RCU can not be used and other bluetooth device must be "
-"disconnected.\n"
+"While the update is progress, RCU can not be used and other bluetooth device must be disconnected.\n"
 "\n"
 msgstr ""
-"Podczas trwania aktualizacji nie można używać RCU, a inne urządzenia Bluetooth muszą być "
-"odłączone.\n"
+"Podczas trwania aktualizacji nie można używać RCU, a inne urządzenia Bluetooth muszą być odłączone.\n"
 "\n"
 
+#: ../bt_scan.py:58
 #, python-format
 msgid "Wrong pin number for %s. Please try again and check pin number."
 msgstr "Błędny numer pinu dla %s. Spróbuj ponownie i sprawdź numer pinu."
 
+#: ../bt_setup.py:85
 #, python-format
 msgid "connect to %s failed!!"
 msgstr "połączenie z %s nieudane!!"
 
+#: ../bt_setup.py:82
 #, python-format
 msgid "connecting %s"
 msgstr "łączenie %s"
 
+#: ../OTAUpdate.py:232 ../bt_setup.py:97
 #, python-format
 msgid "disconnect to %s failed!!"
 msgstr "rozłączenie z %s nie powiodło się!!"
 
+#: ../OTAUpdate.py:230 ../bt_setup.py:95
 #, python-format
 msgid "disconnecting %s"
 msgstr "rozłączanie %s"
 
+#: ../bt_setup.py:109
 #, python-format
 msgid "remove %s failed!!"
 msgstr "usunięcie %s nie powiodło się!"
